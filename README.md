@@ -11,7 +11,7 @@ lambdaOJ2 is the platform for the course **Data Structure** in EE of Thu.
 ```bash
 cd lambdaOJ2
 mkdir build; cd build
-cmake -DCMAKE_INSTALL_PREFIX=/your/path/to/install/
+cmake -DCMAKE_INSTALL_PREFIX=/your/path/to/install/ ..
 make
 make install
 ```
@@ -20,8 +20,7 @@ make install
 
 Make sure:
 
-* `liblambdaOJ2.so` is in `$LD_LIBRARY_PATH`
-* `judge` is in `$PATH`
+* `judge` and `compile_code` is in `$PATH`
 
 ```bash
 cd liblambdaOJ2/python_package
